@@ -226,48 +226,6 @@ FILE FREEFORM = F898317F-88CE-4839-89ED-B80E94E4CBBC {
 }
 
 
-FILE FREEFORM = 3E5584ED-05D4-4267-9048-0D47F76F4248 {
-    SECTION UI = "battery_symbol_Soc10.bmp"
-    SECTION RAW = MooreaPkg/Device/$(TARGET_DEVICE)/Binaries/RawFiles/battery_symbol_Soc10.bmp
-}
-
-
-FILE FREEFORM = 4753E815-DDD8-402D-BF69-9B8C4EB7573E {
-    SECTION UI = "battery_symbol_NoBattery.bmp"
-    SECTION RAW = MooreaPkg/Device/$(TARGET_DEVICE)/Binaries/RawFiles/battery_symbol_NoBattery.bmp
-}
-
-
-FILE FREEFORM = 03DED53E-BECD-428F-9F79-5ABA64C58445 {
-    SECTION UI = "battery_symbol_Nocharger.bmp"
-    SECTION RAW = MooreaPkg/Device/$(TARGET_DEVICE)/Binaries/RawFiles/battery_symbol_Nocharger.bmp
-}
-
-
-FILE FREEFORM = 8B86CD38-C772-4FCF-85AA-345B2B3C1AB4 {
-    SECTION UI = "battery_symbol_LowBatteryCharging.bmp"
-    SECTION RAW = MooreaPkg/Device/$(TARGET_DEVICE)/Binaries/RawFiles/battery_symbol_LowBatteryCharging.bmp
-}
-
-
-FILE FREEFORM = 3FD97907-93F1-4349-AF3C-3B68B0A5E626 {
-    SECTION UI = "battery_symbol_LowBattery.bmp"
-    SECTION RAW = MooreaPkg/Device/$(TARGET_DEVICE)/Binaries/RawFiles/battery_symbol_LowBattery.bmp
-}
-
-
-FILE FREEFORM = B0F8D1BE-5353-4812-B1F6-07E7768204CC {
-    SECTION UI = "battery_symbol_DebugBoot.bmp"
-    SECTION RAW = MooreaPkg/Device/$(TARGET_DEVICE)/Binaries/RawFiles/battery_symbol_DebugBoot.bmp
-}
-
-
-FILE FREEFORM = F9E8F683-E065-4E09-B4F9-0230D7CECD08 {
-    SECTION UI = "battery_symbol_DebugStay.bmp"
-    SECTION RAW = MooreaPkg/Device/$(TARGET_DEVICE)/Binaries/RawFiles/battery_symbol_DebugStay.bmp
-}
-
-
 FILE FREEFORM = A1E235DE-E825-4591-9623-C43175811826 {
     SECTION UI = "SecParti.cfg"
     SECTION RAW = MooreaPkg/Device/$(TARGET_DEVICE)/Binaries/RawFiles/SecParti.cfg
