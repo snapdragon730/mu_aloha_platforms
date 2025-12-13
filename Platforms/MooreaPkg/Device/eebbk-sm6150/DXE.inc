@@ -256,18 +256,6 @@ FILE FREEFORM = 3FD97907-93F1-4349-AF3C-3B68B0A5E626 {
 }
 
 
-FILE FREEFORM = E2EA5A4F-98BD-4203-AB49-399505DDFB7D {
-    SECTION UI = "tsens_thermal_symbol.bmp"
-    SECTION RAW = MooreaPkg/Device/$(TARGET_DEVICE)/Binaries/RawFiles/tsens_thermal_symbol.bmp
-}
-
-
-FILE FREEFORM = C72FB1A9-5527-4E13-BAC4-F671D0330145 {
-    SECTION UI = "tsens_thermal_err_symbol.bmp"
-    SECTION RAW = MooreaPkg/Device/$(TARGET_DEVICE)/Binaries/RawFiles/tsens_thermal_err_symbol.bmp
-}
-
-
 FILE FREEFORM = B0F8D1BE-5353-4812-B1F6-07E7768204CC {
     SECTION UI = "battery_symbol_DebugBoot.bmp"
     SECTION RAW = MooreaPkg/Device/$(TARGET_DEVICE)/Binaries/RawFiles/battery_symbol_DebugBoot.bmp
