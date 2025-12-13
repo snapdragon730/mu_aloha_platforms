@@ -216,13 +216,13 @@ FILE FREEFORM = 6AA4C932-31FA-4136-9F8F-0954BB55C2F3 {
 
 FILE FREEFORM = CF65ABBD-9041-464B-84F4-2ACD1AC44A0D {
     SECTION UI = "Panel_sharp_qsync_fhd_vid.xml"
-    SECTION RAW = RawFiles/Panel_sharp_qsync_fhd_vid.xml
+    SECTION RAW = MooreaPkg/Device/$(TARGET_DEVICE)/Binaries/RawFiles/Panel_sharp_qsync_fhd_vid.xml
 }
 
 
 FILE FREEFORM = F898317F-88CE-4839-89ED-B80E94E4CBBC {
     SECTION UI = "Panel_sharp_qsync_fhd_cmd.xml"
-    SECTION RAW = RawFiles/Panel_sharp_qsync_fhd_cmd.xml
+    SECTION RAW = MooreaPkg/Device/$(TARGET_DEVICE)/Binaries/RawFiles/Panel_sharp_qsync_fhd_cmd.xml
 }
 
 
