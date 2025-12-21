@@ -95,7 +95,7 @@ INF MooreaPkg/Device/$(TARGET_DEVICE)/Binaries/QcomPkg/Drivers/UsbfnDwc3Dxe/Usbf
 
 # Patched Binaries
 INF QcomPkg/PatchedBinaries/78EF0A56-1CF0-4535-B5DA-F6FD2F405A25.inf
-INF QcomPkg/PatchedBinaries/HALIOMMUDxe.inf
+#INF QcomPkg/PatchedBinaries/HALIOMMUDxe.inf
 INF MooreaPkg/Device/$(TARGET_DEVICE)/PatchedBinaries/UFSDxe.inf
 
 # DXE without depex
