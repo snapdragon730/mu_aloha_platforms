@@ -86,5 +86,5 @@ MooreaPkg/Device/$(TARGET_DEVICE)/Binaries/QcomPkg/Application/QcomChargerApp/Qc
 #QcomPkg/Drivers/ShmBridgeDxe/ShmBridgeDxeLA.inf
 
 QcomPkg/PatchedBinaries/78EF0A56-1CF0-4535-B5DA-F6FD2F405A25.inf
-QcomPkg/PatchedBinaries/HALIOMMUDxe.inf
+#QcomPkg/PatchedBinaries/HALIOMMUDxe.inf
 MooreaPkg/Device/$(TARGET_DEVICE)/PatchedBinaries/UFSDxe.inf
