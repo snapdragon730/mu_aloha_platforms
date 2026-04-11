@@ -85,13 +85,13 @@ READ_LOCK_STATUS   = TRUE
   INF AndromedaPkg/Driver/SecureBootProvisioningDxe/SecureBootProvisioningDxe.inf
 
   INF AndromedaPkg/Driver/GpioButtons/GpioButtons.inf
-  INF EmbeddedPkg/Drivers/VirtualKeyboardDxe/VirtualKeyboardDxe.inf
+#  INF EmbeddedPkg/Drivers/VirtualKeyboardDxe/VirtualKeyboardDxe.inf
 
   # BDS
   INF AndromedaPkg/Driver/RamPartitionDxe/RamPartitionDxe.inf
   INF MdeModulePkg/Universal/SmbiosDxe/SmbiosDxe.inf
-  INF MdeModulePkg/Universal/SetupBrowserDxe/SetupBrowserDxe.inf
-  INF MdeModulePkg/Universal/DriverHealthManagerDxe/DriverHealthManagerDxe.inf
+#  INF MdeModulePkg/Universal/SetupBrowserDxe/SetupBrowserDxe.inf
+#  INF MdeModulePkg/Universal/DriverHealthManagerDxe/DriverHealthManagerDxe.inf
   INF MdeModulePkg/Universal/Console/TerminalDxe/TerminalDxe.inf
 
   # HID Support
@@ -121,14 +121,14 @@ READ_LOCK_STATUS   = TRUE
 
   !include AndromedaPkg/Frontpage.fdf.inc
 
-  # FILE FREEFORM = PCD(gOemPkgTokenSpaceGuid.PcdLogoFile) {
-  #   SECTION RAW = AndromedaPkg/Include/Resources/BootLogo.bmp
-  #   SECTION UI = "BootLogo.bmp"
-  # }
+#  FILE FREEFORM = PCD(gOemPkgTokenSpaceGuid.PcdLogoFile) {
+#    SECTION RAW = AndromedaPkg/Include/Resources/BootLogo.bmp
+#    SECTION UI = "BootLogo.bmp"
+#  }
 
-  FILE FREEFORM = PCD(gMsCorePkgTokenSpaceGuid.PcdRegulatoryGraphicFileGuid) {
-    SECTION RAW = SurfaceDuo1Pkg/Include/Resources/RegulatoryLogos.png
-  }
+#  FILE FREEFORM = PCD(gMsCorePkgTokenSpaceGuid.PcdRegulatoryGraphicFileGuid) {
+#    SECTION RAW = $(PACKAGE_NAME)/Include/Resources/RegulatoryLogos.png
+#  }
 
   INF AdvLoggerPkg/AdvancedFileLogger/AdvancedFileLogger.inf
   INF ArmPkg/Drivers/ArmGicDxe/ArmGicDxe.inf
